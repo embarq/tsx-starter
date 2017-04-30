@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+
+# IDE
+/.idea
+/.awcache
+
+# misc
+npm-debug.log
+dist
+
+# example
+/quick-start
+
+# tests
+/test
+/coverage
+/.nyc_output
+
+# DB
+
+!./db
+db/**
