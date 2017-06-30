@@ -1,7 +1,10 @@
 import * as React from 'react';
+import { Footer } from './todo';
 
-export class App extends React.Component<{},null> {
-  render() {
-    return <h1>App running</h1>;
-  }
-}
+const App = () => (
+  <div>
+    <AddTodo />
+    <VisibleTodoList />
+    <Footer />
+  </div>
+)
